@@ -17,7 +17,7 @@
             <h2>Add New Car</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href=""> Back</a>
+            <a class="btn btn-primary" href="{{route('cars.list')}}"> Back</a>
         </div>
     </div>
 </div>

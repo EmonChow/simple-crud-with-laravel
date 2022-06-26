@@ -16,6 +16,14 @@
 </head>
 <body>
     
+<style>
+        .pagination{
+            float: right;
+            margin-top: 10px;
+        }
+</style>
+
+
 
 <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -34,7 +42,7 @@
         </div>
     @endif
 
-    <table class="table table-bordered">
+    <table class="table table-bordered" >
         <tr>
             <th>SL</th>
             <th>Model</th>
@@ -64,13 +72,13 @@
 
 
 
-
+     
 
 
         <div class="card-footer">
             <div class="row justify-content-between">
                 <div class="col-md-6">
-                 
+              
                 </div>
                 <div class="col-md-2">
 
@@ -82,7 +90,7 @@
 
     </table>
 
-
+    {!! $cars->links() !!}
 </body>
 </html>
 
